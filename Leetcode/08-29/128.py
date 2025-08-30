@@ -14,9 +14,8 @@
 # Input: nums = [0,3,7,2,5,8,4,6,0,1]
 # Output: 9
 
-# Brute force solution would be to use a hashset to store the elements of the array and then iterate through the array and check if the next element is in the hashset.
-# or sort the array and then iterate through the array and check if the next element is consecutive.
-# Time complexity: O(nlogn) and space complexity: O(n).
+# Brute force solution would be to sort the array and then iterate through the array and check if the next element is consecutive.
+# Time complexity: O(nlogn) and space complexity: O(1).
 
 # Optimal solution would be to use a hashset to store the elements of the array and then iterate through the array and check if the next element is in the hashset.
 # Time complexity: O(n) and space complexity: O(n).
