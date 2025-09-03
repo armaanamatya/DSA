@@ -16,3 +16,8 @@
     167.py - 2 Sum II - 
     
     271.py - Encode and Decode Strings - use an integer to represent the length of the string and then a delimiter to announce start of the string itself.
+
+09-02:
+    53.py - Maximum Subarray - Remove negative prefix of sum, sliding window and pointers
+    152.py - Maximum Product Subarray - DP, keep track of current min and max, ignore 0, max can be positive or negative but cant be zero
+    371.py - Sum of Two Integers - bit mani, XOR (a ^ b), add bit by bit, be mindful of carry, after adding, if carry is still 1, then add it as well
