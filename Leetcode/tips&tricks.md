@@ -21,3 +21,7 @@
     53.py - Maximum Subarray - Remove negative prefix of sum, sliding window and pointers
     152.py - Maximum Product Subarray - DP, keep track of current min and max, ignore 0, max can be positive or negative but cant be zero
     371.py - Sum of Two Integers - bit mani, XOR (a ^ b), add bit by bit, be mindful of carry, after adding, if carry is still 1, then add it as well
+
+09-03:
+    11.py - Container With Most Water - use l&r pointers to keep tract of container width and height, move them accordingly to maximize area
+    153.py - Find Minimum in Rotated Sorted Array - 
