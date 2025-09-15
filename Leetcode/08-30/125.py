@@ -38,7 +38,7 @@ class Solution:
         while l < r:
             while l < r and not self.alphaNum(s[l]):
                 l += 1    
-            while r > 1 and not self.alphaNum(s[r]):
+            while r > l and not self.alphaNum(s[r]):
                 r -= 1
                 
             if s[l].lower() != s[r].lower():
