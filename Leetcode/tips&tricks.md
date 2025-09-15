@@ -29,3 +29,6 @@
     121.py - Best Time to Buy and Sell Stock - Use 2 pointers to keep track of profit
     191.py - Number of 1 Bits - doing bitwise AND with n and n - 1 then incrementing the result until n is 0 (Brian Kernighan's algorithm)
 
+09-15:
+    5.py - Longest Palindromic Substring - foreach char in str, consider it were the middle, consider if pali was odd or even; and expand with pointers
+    
