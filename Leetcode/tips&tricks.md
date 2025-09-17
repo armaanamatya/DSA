@@ -31,4 +31,9 @@
 
 09-15:
     5.py - Longest Palindromic Substring - foreach char in str, consider it were the middle, consider if pali was odd or even; and expand with pointers
-    647.py - Palindromic Substrings - same as above, consider if string odd or even, and expand as if char were middle [need to count single chars as well]
+    647.py - Palindromic Substrings - same as above, consider if string odd or even, and expand as if char were middle [need to count single chars as well
+
+09-17:
+    268.py - Missing Number - hashset, sum of natural numbers
+    190.py - Reverse Bits - for loop to get ith bit and then add it to the (31-ith) position in result 
+    
